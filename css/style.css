@@ -23,7 +23,6 @@ caption{
 } */
 
 /*END STARTER CODE*/
-@import url('https://fonts.googleapis.com/css?family=Andika');
 
 body{
   color: #000000;
@@ -55,7 +54,7 @@ h1{
 
 p{
   font-size: 15px;
-  padding-top: 10px;
+  padding-top: 10px 0px 0px 0px;
 }
 
 a{
@@ -83,6 +82,8 @@ td{
   padding: 10px;
   background-color: #7e0825;
   text-align: center;
+  text-transform: uppercase;
+
 }
 
 .rowhead{
