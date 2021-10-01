@@ -122,7 +122,7 @@ tbody tr:last-child th:first-child{
 
 /*Add selectors and rules here*/
 tr:nth-child(even) {background-color: #D1D1D1}
-tr:nth-child(odd) {background-color: transparent
+tr:nth-child(odd) {background-color: transparent}
 tr:hover {
   background-color: rgba(126, 8, 37,0.25);
 }
