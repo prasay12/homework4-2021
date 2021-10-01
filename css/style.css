@@ -37,10 +37,9 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  grid-template-columns: 100%;
+  min-height:100vh;
 
 }
 
@@ -84,7 +83,6 @@ td{
   background-color: #7e0825;
   text-align: center;
   text-transform: uppercase;
-
 }
 
 .rowhead{
@@ -128,11 +126,12 @@ tr:hover {
 }
 
 footer{
+  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  width: 100%;
-  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
 
 }
