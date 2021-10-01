@@ -37,9 +37,10 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height:100vh;
+  grid-template-columns: 100%;
 
 }
 
@@ -121,18 +122,17 @@ tbody tr:last-child th:first-child{
 
 /*Add selectors and rules here*/
 tr:nth-child(even) {background-color: #D1D1D1}
-tr:nth-child(odd) {background-color: transparent}
+tr:nth-child(odd) {background-color: transparent
 tr:hover {
   background-color: rgba(126, 8, 37,0.25);
 }
 
 footer{
-  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
-  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
 
 }
